@@ -1,0 +1,119 @@
+body {
+    background-color: #E3EDF9 !important;
+    
+}
+
+.navbar {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.Icon {
+    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.Log-Out {
+    width: 70px !important;
+    height: 80px !important;
+    margin-right: 20px;
+}
+
+.parrafoSalir {
+    color: rgb(0, 0, 0);
+    border-radius: 1px;
+    border-color: black;
+    border: 5px;
+    text-align: center;
+}
+
+.content-box{
+    box-sizing: content-box !important;
+    background-color: rgb(255, 255, 255);
+   
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    padding-right: 20px;
+    
+}
+
+.Titulo {
+    text-align: center !important;
+    padding-top: 15px; 
+}
+
+.Rol-Usuario {
+    text-align: right !important;
+}
+
+.form-outline {
+    margin-bottom: 1rem;
+}
+
+.p-3.bg-light {
+    background-color: #e6edf5 !important;
+}
+
+.Botones button {
+    margin-left: 11px;
+}
+
+.custom-btn {
+    width: 200px;
+    height: 45px;
+    color: white;
+    margin-left: 20px;
+}
+
+body {
+    height: 100%;
+}
+
+.FindPerson{
+    width: 80%;
+}
+
+h3{
+    font-size: 32px !important;
+}
+
+.botonWrng{
+    border-color: rgb(59, 59, 59);
+    border-radius: 9px;
+}
+
+
+
+.table-container {
+    max-height: 670px; /* Ajusta la altura según tus necesidades */
+    overflow-y: auto;
+  }
+  
+  .table-striped {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed; /* Asegura que las columnas tengan un tamaño consistente */
+  }
+  
+  .table-striped th, .table-striped td {
+    padding: 9px 16px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table-striped th {
+    background-color: #f4f4f4;
+    position: sticky;
+    top: 0; /* Mantiene el encabezado de la tabla fijo */
+    z-index: 0; /* Asegura que el encabezado esté encima del contenido de la tabla */
+  }
+  
+
+
+
+  .btnBuscadorVolver{
+    margin-right: auto;
+    background-color: #174d60 !important;
+  }

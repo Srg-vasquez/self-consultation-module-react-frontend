@@ -1,0 +1,367 @@
+body{
+    background-color: #d4e5fc !important;
+
+}
+
+.nabvar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Icon {
+    margin-left: 20px;
+    width: 7rem;
+    height: 5rem;
+    margin: 10px;
+}
+
+.Log-Out {
+    width: 55px !important;
+    margin-right: 25px;
+}
+ 
+
+
+.parrafoSalir {
+    color: rgb(0, 0, 0);
+    border-radius: 1px;
+    border-color: black;
+    border: 5px;
+    text-align: center;
+}
+
+.content-box{
+box-sizing: content-box;
+background-color: rgb(255, 255, 255);
+margin: 50px 190px 0px 200px;
+padding-left: 20px;
+border-radius: 10px;
+box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+padding-right: 20px;
+width: 80%;
+height: 700px;
+
+
+
+.contenedorDerecho{
+    padding: 0;
+    margin: 0;
+}
+
+}
+
+h3{
+  font-size: 32px !important;
+  text-align: left;
+  margin-bottom: 20px;
+  
+}
+
+
+
+.Titulo{
+    text-align: center !important;
+    padding-top: 15px;
+}
+
+.Rol-Usuario{
+    text-align: right !important;
+   
+}
+
+
+
+
+.h2Titulo{
+    padding-bottom: 5px;
+    padding-top: 3px;
+ 
+}
+
+.CargaFamiliar{
+    padding-top: 76px;
+}
+
+.Botones{
+    text-align: right; 
+    margin-top: 20px; 
+
+    
+    
+}
+
+
+.Botones button {
+    margin-left: 11px;
+}
+
+
+
+.botonUsuario{
+    margin-top: 25px;
+    width: 550px;
+    margin-bottom: 20px;
+    margin-left: 300px;
+    background-color: #174d60 !important;
+    border: #b21fdf;
+    
+}
+.botonUsuario:hover{
+  background: linear-gradient(144deg, #174d60, #b21fdf 50%, #2b4ec2);
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.card {
+    image-orientation:flip;
+    width: 70%;
+    text-align: center;
+   border-radius: 5px;
+    text-align: center;
+    font-family: arial;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  .buttonProfile {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black; 
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+
+
+
+
+  .userIcon{
+    width: 7%;
+    margin-right: 20%;
+    
+    
+  }
+
+  .listIcon{
+    width: 7%;
+ 
+  }
+
+  .searchIcon{
+    width: 6%;
+    margin-right: 90px;
+  }
+
+  .addUser{
+    width: 6%;
+    margin-right: 90px;
+  }
+
+
+ .EditImage{
+  height: 150%;
+  width: 120%;
+  align-items: right;
+ }
+
+ .botonImagen{
+    width: 60px;  
+    border-radius: 20px 20px 20px 20px;
+    border-color: transparent transparent transparent transparent;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+
+
+  }
+
+  .hidden-file-input{
+    display: none;
+  }
+
+
+
+.tituloUsers{
+  font-size: 45px;
+  margin-left: 455px;
+}
+
+
+.inputCargo{
+  width: 495px;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: white;
+  margin-right: 20px;
+  text-align: right;
+}
+
+.user-name {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.user-cargo {
+  font-size: 25px;
+}
+
+.navbar {
+  display: flex !important;
+  justify-content: space-between  !important;
+  align-items: right !important;
+}
+
+
+
+
+
+/* perfil usuario */
+
+.e-card {
+  margin: 85px 100px 50px 20px;
+  background: transparent;
+  box-shadow: 0px 8px 28px -0px rgba(0,0,0,0.80);
+  position: relative;
+  width: 480px;
+  height: 460px;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-left: 200px;
+}
+
+.wave {
+  position: absolute;
+  width: 800px;
+  height: 960px;
+  opacity: 0.8;
+  left: 2;
+  top: 0;
+  margin-left: -50%;
+  margin-top: -70%;
+  background: linear-gradient(744deg,#b21fdf,#174d60 60%,#19a3ff);
+}
+
+.icon {
+  width: 3em;
+  margin-top: -1em;
+  padding-bottom: 1em;
+  width: 80px;
+}
+
+.infotop {
+  text-align: center;
+  font-size: 20px;
+  position: absolute;
+  top: 5.6em;
+  left: 0;
+  right: 0;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+
+.name {
+  font-size: 14px;
+  font-weight: 100;
+  position: relative;
+  top: 1em;
+  text-transform: lowercase;
+}
+
+.wave:nth-child(2),
+.wave:nth-child(3) {
+  top: 210px;
+}
+
+.playing .wave {
+  border-radius: 40%;
+  animation: wave 3000ms infinite linear;
+}
+
+.wave {
+  border-radius: 40%;
+  animation: wave 55s infinite linear;
+}
+
+.playing .wave:nth-child(2) {
+  animation-duration: 4000ms;
+}
+
+.wave:nth-child(2) {
+  animation-duration: 50s;
+}
+
+.playing .wave:nth-child(3) {
+  animation-duration: 5000ms;
+}
+
+.wave:nth-child(3) {
+  animation-duration: 45s;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: #fff;
+}
+
+.user-name, .user-cargo, .user-area {
+  font-size: 25px;
+}
+
+.user-name {
+  font-weight: bold;
+}
+
+.e-card .infotop {
+  text-align: center;
+  padding: 20px;
+}
+
+.user-name, .user-cargo, .user-area {
+  display: block;
+  margin-bottom: 10px;
+}
+
+
+
+.NombreUsuario{
+ font-size: 28px;
+}

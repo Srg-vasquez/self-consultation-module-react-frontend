@@ -1,0 +1,120 @@
+body{
+    background-color: #E3EDF9 !important;
+
+}
+
+.navbar {
+    width: 100%;
+}
+
+.Icon {
+    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.Log-Out {
+    width: 70px !important;
+    height: 80px !important;
+    margin-right: 20px;
+}
+ 
+
+
+.parrafoSalir {
+    color: rgb(0, 0, 0);
+    border-radius: 1px;
+    border-color: black;
+    border: 5px;
+    text-align: center;
+}
+
+.content-box{
+box-sizing: content-box;
+background-color: rgb(255, 255, 255);
+margin: 20px 20px 20px 20px;
+padding-left: 20px;
+border-radius: 10px;
+box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+padding-right: 20px;
+
+
+
+}
+
+.Titulo{
+    text-align: center !important;
+    padding-top: 15px;
+}
+
+.Rol-Usuario{
+    text-align: right !important;
+   
+}
+
+.left-column {
+    padding: 0px;
+    border-top: 1px !important;
+    padding-top: 10px;
+    
+   
+}
+
+.right-column {
+    
+    border-top: 1px !important;
+    padding-top: 10px;
+  
+    
+
+}
+
+.h2Titulo{
+    padding-bottom: 5px;
+    padding-top: 3px;
+}
+
+.CargaFamiliar{
+    padding-top: 76px;
+}
+
+.Botones{
+    text-align: right; 
+    margin-top: 20px; 
+    
+    
+}
+
+
+.Botones button {
+    margin-left: 11px;
+}
+
+h3{
+    font-size: 32px !important;
+}
+
+.custom-btn {
+    width: 200px;
+    height: 45px;
+    color: white;
+    margin-left: 20px;
+}
+
+
+.Iconcheck {
+    width: 200px !important;
+    
+    
+}
+
+
+.parrafocheck{
+    font-size: 24px;
+    color: black;
+}
+
+.modal-title{
+    color: black;
+}
+

@@ -1,0 +1,170 @@
+body {
+  background-color: #E3EDF9 !important;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.Icon {
+  margin-left: 20px;
+  width: 100px;
+  height: 100px;
+}
+.HomeIcon{
+
+  width: 43px !important;
+  margin-right: 20px;
+}
+
+
+.Log-Out {
+  width: 60px !important;
+  margin-right: 20px;
+
+
+}
+
+
+.parrafoSalir {
+  color: rgb(0, 0, 0);
+  border-radius: 1px;
+  border-color: black;
+  border: 5px;
+  text-align: center;
+}
+
+.content-box {
+  box-sizing: content-box;
+  background-color: rgb(255, 255, 255);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  max-height: 60vh; /* Reduce la altura máxima */
+ 
+  overflow: auto;
+}
+
+.Titulo {
+  text-align: center !important;
+  padding-top: 15px;
+}
+
+.Rol-Usuario {
+  text-align: right !important;
+}
+
+.left-column {
+  padding: 0px;
+  border-top: 1px !important;
+  padding-top: 10px;
+}
+
+.right-column {
+  border-top: 1px !important;
+  padding-top: 10px;
+}
+
+.h2Titulo {
+  padding-bottom: 5px;
+  padding-top: 3px;
+}
+
+.BotonesFiltrar {
+  display: flex;
+  justify-content: center;
+}
+
+.BotonFiltrar {
+  text-align: center;
+  padding-top: 10px;
+}
+
+
+h3 {
+  font-size: 32px !important;
+}
+
+.custom-btn {
+  width: 200px;
+  height: 45px;
+  color: white;
+  margin-left: 20px;
+
+}
+
+.table {
+  width: 100%;
+  width: calc(100% - 0px); /* Ajusta el ancho de la tabla para dejar espacio a los lados */
+  margin: auto;
+  margin-bottom: 20px;
+  table-layout: fixed;
+  word-wrap: break-word;
+}
+
+
+
+.export{
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 225px;
+  background-color: rgb(197, 0, 0);
+  cursor: pointer;
+}
+.export:hover{
+  background-color: rgb(155, 8, 8);
+}
+
+.botonVolver{
+  background-color: #6c757d;
+  margin-top: 10px;
+  cursor: pointer;
+
+}
+.botonVolver:hover{ 
+  background-color: #8f6b01;
+}
+
+
+/* Estilo para el botón del dropdown */
+.btn-dropdown {
+  background-color: #174d60;
+  color: white; /* Color del texto en el botón */
+}
+
+.btn-dropdown:hover {
+  background: linear-gradient(144deg, #174d60, #b21fdf 50%, #2b4ec2);
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+/* Estilo para la lista de opciones del dropdown */
+.btn-dropdown option {
+  background-color: #174d60; /* Cambia esto al color que desees para el fondo */
+  color: white; /* Cambia esto al color que desees para el texto */
+}
+
+/* Estilo para la opción seleccionada */
+.btn-dropdown option:checked {
+  background-color: #174d60; /* Cambia esto al color que desees para la opción seleccionada */
+  color: #b21fdf; /* Cambia esto al color que desees para el texto de la opción seleccionada */
+}
+
+/* Estilo para la opción cuando está enfocada */
+.btn-dropdown:focus option {
+  background-color: #174d60; /* Cambia esto al color que desees para la opción enfocada */
+  color: white; /* Cambia esto al color que desees para el texto de la opción enfocada */
+}
+
+/* Estilo para la opción cuando está siendo resaltada */
+.btn-dropdown option:hover {
+  background-color: #174d60; /* Cambia esto al color que desees para la opción resaltada */
+  color: white; /* Cambia esto al color que desees para el texto de la opción resaltada */
+}
+
+
+.tablaGestioanr{
+
+padding-top: 0px !important;
+}
