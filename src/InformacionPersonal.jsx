@@ -171,7 +171,7 @@ function InformacionPersonal() {
   return (
     <>
       <nav className="navbar navbar-light" style={{ backgroundColor: "#4d8fac" }} data-mdb-theme="light">
-        <img src="/Images/yuri_logo_sin_fondo.png" alt="Icon" className="Icon" />
+        <img src="/Images/logo_solo.png" alt="Icon" className="Icon" />
         <div className="logOut">
           <img
             src="/Icons/log-out.svg"
